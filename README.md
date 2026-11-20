@@ -1,6 +1,6 @@
 # English Tutor
 
-**English** · [Русский](README.ru.md)
+**English** · [Русский](README.ru.md) · [Español](README.es.md) · [Português (BR)](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 A personal English tutor built on an AI coding agent ([Claude Code](https://claude.com/claude-code), Codex and others). The agent gives lessons, sets exercises in files, checks your answers, tracks your mistakes and reminds you to revise.
 
@@ -20,7 +20,7 @@ There are two modes: **general English** (everyday topics) and **professional En
 ```
 .
 ├── AGENTS.md                         # rules for any agent in this folder
-├── README.ru.md                      # this description in Russian
+├── README.*.md                       # translations: ru, es, pt-BR, zh-CN, ja, ko
 ├── CLAUDE.md                         # loads AGENTS.md and README.md for Claude Code
 ├── GEMINI.md                         # the same for Gemini CLI
 ├── .claude/skills/

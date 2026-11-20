@@ -1,6 +1,6 @@
 # English Tutor
 
-[English](README.md) · **Русский**
+[English](README.md) · **Русский** · [Español](README.es.md) · [Português (BR)](README.pt-BR.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 Личный репетитор английского на базе AI-агента ([Claude Code](https://claude.com/claude-code), Codex и других). Агент ведёт уроки, даёт упражнения в файлах, проверяет ответы, отслеживает ошибки и напоминает о повторении.
 
@@ -20,7 +20,7 @@
 ```
 .
 ├── AGENTS.md                         # правила для любого агента в этой папке
-├── README.ru.md                      # это описание на русском
+├── README.*.md                       # переводы: ru, es, pt-BR, zh-CN, ja, ko
 ├── CLAUDE.md                         # подключает AGENTS.md и README.md для Claude Code
 ├── GEMINI.md                         # то же для Gemini CLI
 ├── .claude/skills/
